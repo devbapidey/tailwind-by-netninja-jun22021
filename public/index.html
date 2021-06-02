@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-600">
+<div class="md:grid md:grid-cols-3">
+    <div class="md:flex md:justify-end">
+        <nav class="text-right">
+            <div class="flex items-center justify-between">
+                <h1 class="font-bold uppercase p-4 border-b border-gray-100 text-primary font-my">
+                    <a class="hover:text-gray-700" href="">Food Ninja</a>
+                </h1>
+                <div class="px-4 cursor-pointer md:hidden">
+                    <svg class="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+            </div>
+            <ul class="text-sm mt-6 hidden md:block">
+                <li class="text-gray-700 py-1">
+                    <a href="#" class="px-4">
+                        <span class="font-bold">Home</span>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="#" class="px-4">
+                        <span class="font-bold">About</span>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="#" class="px-4">
+                        <span class="font-bold">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+        <div class="flex justify-center md:justify-end">
+            <a href="#" class="rounded-full cursor-pointer px-3 py-2 text-primary text-xs tracking-wide font-bold uppercase md:border-2 border-primary hover:bg-primary hover:text-white transition ease-in duration-300">Log In</a>
+            <a class="ml-2 rounded-full cursor-pointer px-3 py-2 text-primary text-xs tracking-wide font-bold uppercase md:border-2 border-primary hover:bg-primary hover:text-white transition ease-in duration-300" href="#">Sign In</a>
+        </div>
+        <header>
+            <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+            <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        </header>
+        <div class="">
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+            <div class="mt-8 grid lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="w-full h-32 sm:h-24 object-cover" src="img/curry.jpg" alt="stew">
+                    <div class="m-4">
+                        <span class="font-bold">Paneer Curry with Khamba</span>
+                        <span class="block text-sm text-gray-500">Recipe by Mario</span>
+                    </div>
+                    <div class="bg-secondary-100 text-secondary-200 text-xs font-bold uppercase rounded-full p-2 absolute top-0 ml-2 mt-2">
+                        <span>40 minutes</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="w-full h-32 sm:h-24 object-cover" src="img/noodles.jpg" alt="stew">
+                    <div class="m-4">
+                        <span class="font-bold">Veg Noodles With Biri</span>
+                        <span class="block text-sm text-gray-500">Recipe by Mario</span>
+                    </div>
+                    <div class="bg-secondary-100 text-secondary-200 text-xs font-bold uppercase rounded-full p-2 absolute top-0 ml-2 mt-2">
+                        <span>7 minutes</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="w-full h-32 sm:h-24 object-cover" src="img/stew.jpg" alt="stew">
+                    <div class="m-4">
+                        <span class="font-bold">5 Bean Chili Stow with Zuba Kesri</span>
+                        <span class="block text-sm text-gray-500">Recipe by Mario</span>
+                    </div>
+                    <div class="bg-secondary-100 text-secondary-200 text-xs font-bold uppercase rounded-full p-2 absolute top-0 ml-2 mt-2">
+                        <span>22 minutes</span>
+                    </div>
+                </div>
+            </div>
+            <h4 class="font-bold mt-12">Most Popular</h4>
+            <div class="mt-8">
+            </div>
+            <div class="flex justify-center">
+                <div class="bg-secondary-100 text-secondary-200 text-xs rounded-full px-3 py-2 cursor-pointer text-primary tracking-wide font-bold uppercase hover:shadow-inner transform hover:scale-125 hover:bg-opacity-5 transition ease-out duration-300">Load more</div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
